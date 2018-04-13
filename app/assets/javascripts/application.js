@@ -13,4 +13,23 @@
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
-//= require_tree .
+
+//= require jquery/dist/jquery
+//= require jquery-migrate/dist/jquery-migrate
+//= require jquery.easing/jquery.easing
+//= require popper.js/dist/popper
+//= require bootstrap/dist/js/bootstrap
+
+//= require appear
+//= require slick-carousel/slick/slick
+//= require gmaps/gmaps
+
+//= require hs.core
+//= require components/hs.header
+//= require helpers/hs.hamburgers
+//= require components/hs.scroll-nav
+//= require components/hs.carousel
+//= require components/gmap/hs.map
+//= require components/hs.go-to.js
+
+//= require static_pages
