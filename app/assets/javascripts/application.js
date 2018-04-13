@@ -14,15 +14,15 @@
 //= require activestorage
 //= require turbolinks
 
-//= require jquery/dist/jquery
-//= require jquery-migrate/dist/jquery-migrate
+//= require jquery/dist/jquery.min
+//= require jquery-migrate/dist/jquery-migrate.min
 //= require jquery.easing/jquery.easing
-//= require popper.js/dist/popper
-//= require bootstrap/dist/js/bootstrap
+//= require popper.js/dist/umd/popper.min
+//= require bootstrap/dist/js/bootstrap.min
 
 //= require appear
 //= require slick-carousel/slick/slick
-//= require gmaps/gmaps
+//= require gmaps/gmaps.min
 
 //= require hs.core
 //= require components/hs.header
