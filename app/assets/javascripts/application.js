@@ -28,6 +28,7 @@
 //= require components/hs.header
 //= require helpers/hs.hamburgers
 //= require components/hs.scroll-nav
+//= require components/hs.tabs
 //= require components/hs.carousel
 //= require components/gmap/hs.map
 //= require components/hs.go-to.js
