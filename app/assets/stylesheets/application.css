@@ -12,8 +12,6 @@
  *
  *= require bootstrap/dist/css/bootstrap
  *= require font-path-overwrite
- *= require font-awesome/scss/font-awesome
- *= require simple-line-icons/scss/simple-line-icons
  *= require icon-hs/style
  *= require hamburgers/dist/hamburgers
  *= require animate.css/animate
