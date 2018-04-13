@@ -11,8 +11,9 @@
  * It is generally better to create a new file per style scope.
  *
  *= require bootstrap/dist/css/bootstrap
- *= require font-awesome/css/font-awesome
- *= require simple-line-icons/css/simple-line-icons
+ *= require font-path-overwrite
+ *= require font-awesome/scss/font-awesome
+ *= require simple-line-icons/scss/simple-line-icons
  *= require icon-hs/style
  *= require hamburgers/dist/hamburgers
  *= require animate.css/animate
