@@ -74,7 +74,9 @@
             <div class="col-sm-4 col-md-12">
               <i class="icon-envelope-open icon d-inline-block g-font-size-20 g-color-primary g-mb-7"></i>
               <h3 class="text-uppercase g-font-size-12 g-color-gray-dark-v5 g-font-weight-400 g-mb-5">Email</h3>
-              <a class="g-color-black g-color-black--hover" href="mailto:info@unify.com"><strong class="g-font-size-14">info@ronslandscape.com</strong></a>
+              <%= link_to 'mailto:info@unify.com', class: 'g-color-black g-color-black--hover' do %>
+                  <strong class="g-font-size-14">info@ronslandscape.com</strong>
+              <% end %>
             </div>
           </address>
         </div>
