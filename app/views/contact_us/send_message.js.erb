@@ -1,5 +1,15 @@
+var modal = $("#contact-us-modal");
+var modal_title = $("#contact-us-modal-title");
+var modal_message = $("#contact-us-modal-message");
+var form = $("#contact-us-form");
+
 <% if @success %>
-alert('Form Submitted Successfully');
+form[0].reset();
+modal_title.html('Thank you for contacting us');
+modal_message.html('We will look in to the message and get back to you as soon as possible.');
 <% else %>
-alert('Form Submission failed');
+modal_title.html('Something is not working');
+modal_message.html('Oops! Looks like an error has occurred. Please try again, later.');
 <% end %>
+
+modal.modal({show: true});
