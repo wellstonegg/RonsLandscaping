@@ -1,6 +1,10 @@
 class ContactUsController < ApplicationController
   def create
-  #   Send Message
+    @success = false
+    if verify_recaptcha
+      #   Send Message
+      @success = true
+    end
     render 'send_message'
   end
 
