@@ -2,7 +2,7 @@ class ContactUsController < ApplicationController
   def create
     @success = false
     if verify_recaptcha
-      #   Send Message
+      ContactUsMailer.with(contact: contact_us_params).contact_form_email.deliver_later
       @success = true
     end
     render 'send_message'
