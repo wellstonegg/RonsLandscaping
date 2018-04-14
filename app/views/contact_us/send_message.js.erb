@@ -4,6 +4,7 @@ var modal_message = $("#contact-us-modal-message");
 var form = $("#contact-us-form");
 
 <% if @success %>
+grecaptcha.reset();
 form[0].reset();
 modal_title.html('Thank you for contacting us');
 modal_message.html('We will look in to the message and get back to you as soon as possible.');
